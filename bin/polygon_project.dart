@@ -1,3 +1,6 @@
+
+import '../lib/rectangle.dart';
 void main() {
-  print('Hello World');
+  Rectangle per = Rectangle(3, 5);
+  print(per.a);
 }
